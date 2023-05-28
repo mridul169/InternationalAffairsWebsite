@@ -302,7 +302,7 @@ body {
     color: #fff;
   }
   
-  @media (max-width: 991px) {
+  @media (max-width: 600px) {
     .mobile-nav-toggle {
       display: block;
     }
@@ -393,6 +393,29 @@ body {
   
   .navbar-mobile .dropdown>.dropdown-active {
     display: block;
+  }
+  @media (max-width: 767px) {
+    .navbar {
+      height: 50px;
+      background-color: #333;
+      color: #fff;
+    }
+  
+    .navbar ul {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .navbar li {
+      margin-bottom: 10px;
+    }
+  
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 10px;
+    }
   }
   
   /*--------------------------------------------------------------
